@@ -5,8 +5,10 @@ import unicornhat as unicorn
 
 unicorn.set_layout(unicorn.AUTO)
 unicorn.rotation(180)
-unicorn.brightness(0.3)
+unicorn.brightness(0.6)
 uh_width,uh_height=unicorn.get_shape()
+
+print("Your unicornhat will now light up!")
 
 for h in range(uh_height):
     for w in range(uh_width):
